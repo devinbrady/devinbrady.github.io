@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Devin Brady'
-SITENAME = u'Devin Brady'
+AUTHOR = u'Devin'
+SITENAME = u'Devin Brady Consulting'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
 
@@ -33,3 +33,5 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+STATIC_PATHS = ['images']
