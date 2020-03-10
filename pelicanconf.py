@@ -20,13 +20,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Medium', 'https://medium.com/@devinbrady'),)
+# LINKS = (('Medium', 'https://medium.com/@devinbrady'),)
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/devinbrady'),
-          ('Twitter', 'https://twitter.com/bradyhunch'),
-          ('LinkedIn', 'https://www.linkedin.com/in/devin-brady/'),
-          )
+SOCIAL = (
+    ('Github', 'https://github.com/devinbrady'),
+    ('Medium', 'https://medium.com/@devinbrady'),
+    ('Twitter', 'https://twitter.com/bradyhunch'),
+    ('LinkedIn', 'https://www.linkedin.com/in/devin-brady/'),
+    )
 
 DEFAULT_PAGINATION = 10
 
