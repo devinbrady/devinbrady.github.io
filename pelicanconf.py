@@ -34,3 +34,6 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 STATIC_PATHS = ['images']
+
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+THEME = "./theme/pelican-bootstrap3/"
