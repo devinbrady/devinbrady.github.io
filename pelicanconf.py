@@ -35,5 +35,10 @@ RELATIVE_URLS = True
 
 STATIC_PATHS = ['images']
 
-JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 THEME = "./theme/pelican-bootstrap3/"
+
+PLUGIN_PATHS = ['/Users/devin/Projects/pelican-plugins', ]
+PLUGINS = ['i18n_subsites', ]
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
